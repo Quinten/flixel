@@ -785,7 +785,7 @@ package org.flixel
 			gfx.lineTo(halfWidth-helper,halfHeight+helper);
 			gfx.lineTo(halfWidth-helper,halfHeight-helper);
 			gfx.endFill();
-			
+		/*	
 			var logo:Bitmap = new ImgLogo();
 			logo.scaleX = int(helper/10);
 			if(logo.scaleX < 1)
@@ -794,7 +794,7 @@ package org.flixel
 			logo.x -= logo.scaleX;
 			logo.alpha = 0.35;
 			_focus.addChild(logo);
-
+        */
 			addChild(_focus);
 		}
 	}
